@@ -1,0 +1,3 @@
+[submodule "Emotion_Face_Detector/yolov5_face"]
+	path = Emotion_Face_Detector/yolov5_face
+	url = https://github.com/deepcam-cn/yolov5-face.git
