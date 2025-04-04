@@ -21,3 +21,29 @@ Dự án này là một hệ thống **Nhận diện cảm xúc khuôn mặt the
   - **yolov5_face/**: Submodule chứa mã YOLOv5 để phát hiện khuôn mặt.
   - **yolov5s-face.pt**: Mô hình YOLOv5 đã huấn luyện để phát hiện khuôn mặt.
   - **Yolov5-EfNet_B2-CamXuc.py**: Script kết hợp YOLOv5 và EfficientNet-B2 để nhận diện cảm xúc từ khuôn mặt.
+  
+## Yêu cầu:
+- Python 3.x
+- PyTorch
+- OpenCV
+- torchvision
+- Pillow
+- numpy
+- tqdm
+- scikit-learn
+- matplotlib
+- TensorBoard (cho việc ghi log và trực quan hóa)
+
+## Thiết lập:
+1. Clone repository:
+```bash
+git clone https://github.com/deepcam-cn/yolov5-face.git
+```
+2. Tải mô hình YOLOv5 face:
+
+Nếu bạn không có file yolov5s-face.pt, bạn có thể tải từ repository YOLOv5 Face chính thức.
+Ví dụ ở đây tôi clone từ (https://github.com/deepcam-cn/yolov5-face)
+
+3. Tải mô hình EfficientNet-B2:
+
+Nếu bạn không có mô hình đã huấn luyện EfficientNet-B2, bạn có thể huấn luyện nó bằng script EfficientNet_B2.py hoặc sử dụng mô hình best.pt đã huấn luyện sẵn.
