@@ -70,6 +70,7 @@ Hệ thống sẽ phát hiện khuôn mặt, phân loại cảm xúc và hiển 
 
 Nếu bạn muốn huấn luyện mô hình EfficientNet-B2 trên bộ dữ liệu của riêng mình, bạn có thể sử dụng script EfficientNet_B2.py. Đảm bảo bộ dữ liệu của bạn có cấu trúc như sau:
 
+```pgsql
 dataset_classification/
 ├── train/
 │   ├── Anger/
@@ -89,6 +90,7 @@ dataset_classification/
     ├── Neutral/
     ├── Sad/
     └── Surprise/
+```
 
 Dataset tôi đã để liên kết ở phía trên.
 
